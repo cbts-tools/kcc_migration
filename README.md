@@ -1,78 +1,22 @@
   
 
-# Main Meraki Script Repo
+# KCC meraki migration
 
-Repo specifically for Meraki Scripts in the Script server. 
-
-  
+Meraki network migration from KCC ito Kentuckiana Curb Company.
 
 ## Description
 
-
-This repo houses meraki scripts to be utilized in the script server. 
-Script names should follow the convention of 'meraki_{{What you are doing}}_{{orgspecific}}'.
+KCC is a customer organization that recently signed on to be managed by CBTS. We had a single location for this company under the Kentuckiana Curb Company organization we support. We migrated the networks from KCC into Kentuckiana Curb Company, we kept the network names the way they are currently just an uplift and place into our organization.
 
   
-
 ## Getting Started
-
-  
-
-### Dependencies
-
-**Language and supported version**
-
-*Python version supported: 3.10.+*
-
-*Meraki Python SDK:* https://github.com/meraki/dashboard-api-python
- 
+1. backup all the configuration
+2. create new network from old network
+3. update new networks from old network backups
 
 ### Executing program
 
-  
+* create_templates.py - to create the templates - which are backups of old network
 
-* How to run the program
+* meraki_provisioing/meraki_create_network.py - to create new network and update the config from the backups
 
-* Step-by-step bullets
-
-```
-
-code blocks for commands
-
-```
-
-  
-
-## Help
-
-  
-
-Any advise for common problems or issues.
-
-```
-
-command to run if program contains helper info
-
-```
-
-  
-
-## Authors
-
-  
-
-Contributors names and contact info
-
-ex. Nick Abbas | @pauseframes
-
-ex.
-
-  
-
-## Version History
-
-* See [commit change]() or See [release history]()
-
-* 0.1
-
-* Initial Release

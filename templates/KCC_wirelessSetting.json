@@ -1,0 +1,78 @@
+[
+    {
+        "Grassland": {
+            "meshingEnabled": true,
+            "ipv6BridgeEnabled": true,
+            "locationAnalyticsEnabled": true,
+            "ledLightsOn": true,
+            "regulatoryDomain": {
+                "name": "FCC",
+                "permits6e": true
+            },
+            "upgradeStrategy": "minimizeUpgradeTime",
+            "namedVlans": {
+                "poolDhcpMonitoring": {
+                    "enabled": false,
+                    "duration": 5
+                }
+            }
+        }
+    },
+    {
+        "Electron": {
+            "meshingEnabled": true,
+            "ipv6BridgeEnabled": true,
+            "locationAnalyticsEnabled": true,
+            "ledLightsOn": true,
+            "regulatoryDomain": {
+                "name": "FCC",
+                "permits6e": true
+            },
+            "upgradeStrategy": "minimizeUpgradeTime",
+            "namedVlans": {
+                "poolDhcpMonitoring": {
+                    "enabled": false,
+                    "duration": 5
+                }
+            }
+        }
+    },
+    {
+        "Maintenance": {
+            "meshingEnabled": true,
+            "ipv6BridgeEnabled": true,
+            "locationAnalyticsEnabled": true,
+            "ledLightsOn": true,
+            "regulatoryDomain": {
+                "name": "FCC",
+                "permits6e": true
+            },
+            "upgradeStrategy": "minimizeUpgradeTime",
+            "namedVlans": {
+                "poolDhcpMonitoring": {
+                    "enabled": false,
+                    "duration": 5
+                }
+            }
+        }
+    },
+    {
+        "Tooele": {
+            "meshingEnabled": true,
+            "ipv6BridgeEnabled": true,
+            "locationAnalyticsEnabled": true,
+            "ledLightsOn": true,
+            "regulatoryDomain": {
+                "name": "FCC",
+                "permits6e": true
+            },
+            "upgradeStrategy": "minimizeUpgradeTime",
+            "namedVlans": {
+                "poolDhcpMonitoring": {
+                    "enabled": false,
+                    "duration": 5
+                }
+            }
+        }
+    }
+]

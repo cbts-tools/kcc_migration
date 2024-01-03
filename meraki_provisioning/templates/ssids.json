@@ -1,0 +1,62 @@
+[
+    {
+        "number": 0,
+        "name": "Data - PSK",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "authMode": "psk",
+        "psk": "cbts1234",
+        "dot11r": {
+            "enabled": false,
+            "adaptive": false
+        },
+        "encryptionMode": "wpa",
+        "wpaEncryptionMode": "WPA2 only",
+        "ipAssignmentMode": "Bridge mode",
+        "useVlanTagging": true,
+        "defaultVlanId": 99,
+        "minBitrate": 11,
+        "bandSelection": "Dual band operation",
+        "perClientBandwidthLimitUp": 0,
+        "perClientBandwidthLimitDown": 0,
+        "perSsidBandwidthLimitUp": 0,
+        "perSsidBandwidthLimitDown": 0,
+        "mandatoryDhcpEnabled": false,
+        "lanIsolationEnabled": false,
+        "visible": true,
+        "availableOnAllAps": true,
+        "availabilityTags": [],
+        "speedBurst": {
+            "enabled": false
+        }
+    },
+    {
+        "number": 1,
+        "name": "Guest - Splash Page",
+        "enabled": true,
+        "splashPage": "Click-through splash page",
+        "ssidAdminAccessible": false,
+        "authMode": "open",
+        "ipAssignmentMode": "Bridge mode",
+        "useVlanTagging": true,
+        "defaultVlanId": 1000,
+        "adminSplashUrl": "",
+        "splashTimeout": "1440 minutes",
+        "walledGardenEnabled": false,
+        "minBitrate": 11,
+        "bandSelection": "Dual band operation",
+        "perClientBandwidthLimitUp": 10240,
+        "perClientBandwidthLimitDown": 10240,
+        "perSsidBandwidthLimitUp": 102400,
+        "perSsidBandwidthLimitDown": 102400,
+        "mandatoryDhcpEnabled": false,
+        "lanIsolationEnabled": true,
+        "visible": true,
+        "availableOnAllAps": true,
+        "availabilityTags": [],
+        "speedBurst": {
+            "enabled": false
+        }
+    }
+]

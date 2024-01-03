@@ -1,0 +1,75 @@
+{
+    "name": "Environmental Alerts",
+    "schedule": {
+        "id": null,
+        "name": null
+    },
+    "conditions": [
+        {
+            "metric": "temperature",
+            "threshold": {
+                "temperature": {
+                    "fahrenheit": 79.0
+                }
+            },
+            "duration": 60,
+            "direction": "above"
+        },
+        {
+            "metric": "temperature",
+            "threshold": {
+                "temperature": {
+                    "fahrenheit": 60.0
+                }
+            },
+            "duration": 60,
+            "direction": "below"
+        },
+        {
+            "metric": "humidity",
+            "threshold": {
+                "humidity": {
+                    "relativePercentage": 80
+                }
+            },
+            "duration": 60,
+            "direction": "above"
+        },
+        {
+            "metric": "humidity",
+            "threshold": {
+                "humidity": {
+                    "relativePercentage": 5
+                }
+            },
+            "duration": 60,
+            "direction": "below"
+        },
+        {
+            "metric": "water",
+            "threshold": {
+                "water": {
+                    "present": true
+                }
+            }
+        },
+        {
+            "metric": "door",
+            "threshold": {
+                "door": {
+                    "open": true
+                }
+            },
+            "duration": 300
+        }
+    ],
+    "recipients": {
+        "emails": [],
+        "smsNumbers": [],
+        "httpServerIds": [
+            "aHR0cHM6Ly9jYnRzY3NtdWF0LnNlcnZpY2Utbm93LmNvbS9hcGkvZ2xvYmFsL2VtL21lcmFraV9ldmVudD9zb3VyY2U9bWVyYWtpV2ViaG9vayZzZXJ2aWNlPU5hYVM=",
+            "aHR0cHM6Ly9jYnRzLnNlcnZpY2Utbm93LmNvbS9hcGkvZ2xvYmFsL2VtL21lcmFraV9ldmVudD9zb3VyY2U9bWVyYWtpV2ViaG9vayZzZXJ2aWNlPU5hYVM="
+        ]
+    },
+    "serials": []
+}

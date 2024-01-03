@@ -1,0 +1,650 @@
+[
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 0,
+            "name": "KCC WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "c0mmand3r",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": true,
+            "defaultVlanId": 4,
+            "minBitrate": 6,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": false,
+            "availabilityTags": [
+                ".100",
+                ".87",
+                "comfort",
+                "curb"
+            ],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": true,
+            "defaultRulesEnabled": false,
+            "rules": [
+                {
+                    "definitions": [
+                        {
+                            "type": "applicationCategory",
+                            "value": {
+                                "id": "meraki:layer7/category/13",
+                                "name": "Video & music"
+                            }
+                        }
+                    ],
+                    "perClientBandwidthLimits": {
+                        "settings": "custom",
+                        "bandwidthLimits": {
+                            "limitUp": 2048,
+                            "limitDown": 2048
+                        }
+                    },
+                    "dscpTagValue": null,
+                    "pcpTagValue": null
+                }
+            ]
+        }
+    },
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 1,
+            "name": "Comfort WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "KcC@2716",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": true,
+            "defaultVlanId": 4,
+            "minBitrate": 6,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": false,
+            "availabilityTags": [
+                ".100",
+                "comfort"
+            ],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": true,
+            "defaultRulesEnabled": false,
+            "rules": [
+                {
+                    "definitions": [
+                        {
+                            "type": "applicationCategory",
+                            "value": {
+                                "id": "meraki:layer7/category/13",
+                                "name": "Video & music"
+                            }
+                        }
+                    ],
+                    "perClientBandwidthLimits": {
+                        "settings": "custom",
+                        "bandwidthLimits": {
+                            "limitUp": 2048,
+                            "limitDown": 2048
+                        }
+                    },
+                    "dscpTagValue": null,
+                    "pcpTagValue": null
+                }
+            ]
+        }
+    },
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 2,
+            "name": "KCCguest",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "Louisville",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "NAT mode",
+            "adultContentFilteringEnabled": true,
+            "dnsRewrite": {
+                "enabled": false,
+                "dnsCustomNameservers": []
+            },
+            "minBitrate": 6,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 25600,
+            "perSsidBandwidthLimitDown": 25600,
+            "mandatoryDhcpEnabled": false,
+            "visible": true,
+            "availableOnAllAps": false,
+            "availabilityTags": [
+                ".100",
+                ".87",
+                "comfort",
+                "curb",
+                "electron"
+            ],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": true,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 3,
+            "name": "KCCwifi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "c0mmand3r",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": true,
+            "defaultVlanId": 4,
+            "minBitrate": 6,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": false,
+            "availableOnAllAps": false,
+            "availabilityTags": [
+                "utah"
+            ],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 4,
+            "name": "Amada",
+            "enabled": false,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "open",
+            "ipAssignmentMode": "NAT mode",
+            "adultContentFilteringEnabled": false,
+            "dnsRewrite": {
+                "enabled": false,
+                "dnsCustomNameservers": []
+            },
+            "minBitrate": 1,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Grassland",
+        "ssid": {
+            "number": 5,
+            "name": "KCC BT Only",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "C00LPlace#1",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": true,
+            "defaultVlanId": 4,
+            "minBitrate": 1,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": false,
+            "availableOnAllAps": false,
+            "availabilityTags": [
+                ".100",
+                ".87",
+                "Comfort",
+                "curb"
+            ],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Electron",
+        "ssid": {
+            "number": 0,
+            "name": "Comfort WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "KcC@11426",
+            "dot11w": {
+                "enabled": true,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": true,
+                "adaptive": true
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": false,
+            "minBitrate": 12,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Electron",
+        "ssid": {
+            "number": 1,
+            "name": "KCCGuest",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "Louisville",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "NAT mode",
+            "adultContentFilteringEnabled": true,
+            "dnsRewrite": {
+                "enabled": false,
+                "dnsCustomNameservers": []
+            },
+            "minBitrate": 12,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Electron",
+        "ssid": {
+            "number": 2,
+            "name": "KCC WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "c0mmand3r",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": false,
+            "minBitrate": 1,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Maintenance",
+        "ssid": {
+            "number": 0,
+            "name": "KCC WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "c0mmand3r",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": false,
+            "minBitrate": 11,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Maintenance",
+        "ssid": {
+            "number": 1,
+            "name": "KCC Guest",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "Louisville",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA2 only",
+            "ipAssignmentMode": "NAT mode",
+            "adultContentFilteringEnabled": true,
+            "dnsRewrite": {
+                "enabled": false,
+                "dnsCustomNameservers": []
+            },
+            "minBitrate": 11,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 5120,
+            "perSsidBandwidthLimitDown": 5120,
+            "mandatoryDhcpEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": true,
+            "defaultRulesEnabled": false,
+            "rules": [
+                {
+                    "definitions": [
+                        {
+                            "type": "applicationCategory",
+                            "value": {
+                                "id": "meraki:layer7/category/13",
+                                "name": "Video & music"
+                            }
+                        }
+                    ],
+                    "perClientBandwidthLimits": {
+                        "settings": "custom",
+                        "bandwidthLimits": {
+                            "limitUp": 500,
+                            "limitDown": 500
+                        }
+                    },
+                    "dscpTagValue": null,
+                    "pcpTagValue": null
+                }
+            ]
+        }
+    },
+    {
+        "network": "Tooele",
+        "ssid": {
+            "number": 0,
+            "name": "Tooele WiFi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "KCC@utah1",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": false,
+            "minBitrate": 5.5,
+            "bandSelection": "Dual band operation with Band Steering",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    },
+    {
+        "network": "Tooele",
+        "ssid": {
+            "number": 1,
+            "name": "KCC Wifi",
+            "enabled": true,
+            "splashPage": "None",
+            "ssidAdminAccessible": false,
+            "authMode": "psk",
+            "psk": "c0mmand3r",
+            "dot11w": {
+                "enabled": false,
+                "required": false
+            },
+            "dot11r": {
+                "enabled": false,
+                "adaptive": false
+            },
+            "encryptionMode": "wpa",
+            "wpaEncryptionMode": "WPA1 and WPA2",
+            "ipAssignmentMode": "Bridge mode",
+            "useVlanTagging": false,
+            "minBitrate": 1,
+            "bandSelection": "Dual band operation",
+            "perClientBandwidthLimitUp": 0,
+            "perClientBandwidthLimitDown": 0,
+            "perSsidBandwidthLimitUp": 0,
+            "perSsidBandwidthLimitDown": 0,
+            "mandatoryDhcpEnabled": false,
+            "lanIsolationEnabled": false,
+            "visible": true,
+            "availableOnAllAps": true,
+            "availabilityTags": [],
+            "speedBurst": {
+                "enabled": false
+            }
+        },
+        "rule": {
+            "trafficShapingEnabled": false,
+            "defaultRulesEnabled": false,
+            "rules": []
+        }
+    }
+]

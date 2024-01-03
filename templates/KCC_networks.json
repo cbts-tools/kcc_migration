@@ -1,0 +1,82 @@
+[
+    {
+        "id": "L_624311498344236379",
+        "organizationId": "624311498344235186",
+        "name": "Grassland",
+        "productTypes": [
+            "switch",
+            "wireless"
+        ],
+        "timeZone": "America/Kentucky/Louisville",
+        "tags": [
+            "Firewall"
+        ],
+        "enrollmentString": null,
+        "url": "https://n718.meraki.com/Grassland-wirele/n/G_ZVHcF/manage/usage/list",
+        "notes": "",
+        "isBoundToConfigTemplate": false
+    },
+    {
+        "id": "L_624311498344236380",
+        "organizationId": "624311498344235186",
+        "name": "Electron",
+        "productTypes": [
+            "appliance",
+            "switch",
+            "wireless"
+        ],
+        "timeZone": "America/Los_Angeles",
+        "tags": [],
+        "enrollmentString": null,
+        "url": "https://n718.meraki.com/Electron-switch/n/19z7maTb/manage/usage/list",
+        "notes": "",
+        "isBoundToConfigTemplate": false
+    },
+    {
+        "id": "L_624311498344237508",
+        "organizationId": "624311498344235186",
+        "name": "Maintenance",
+        "productTypes": [
+            "appliance",
+            "switch",
+            "wireless"
+        ],
+        "timeZone": "America/Los_Angeles",
+        "tags": [
+            "Maintenance"
+        ],
+        "enrollmentString": null,
+        "url": "https://n718.meraki.com/Maintenance-appl/n/T8kRidTb/manage/usage/list",
+        "notes": "",
+        "isBoundToConfigTemplate": false
+    },
+    {
+        "id": "L_624311498344249390",
+        "organizationId": "624311498344235186",
+        "name": "Tooele",
+        "productTypes": [
+            "switch",
+            "wireless"
+        ],
+        "timeZone": "America/Los_Angeles",
+        "tags": [],
+        "enrollmentString": null,
+        "url": "https://n718.meraki.com/Tooele-wireless/n/ZA5vHaTb/manage/usage/list",
+        "notes": "",
+        "isBoundToConfigTemplate": false
+    },
+    {
+        "id": "N_624311498344259571",
+        "organizationId": "624311498344235186",
+        "name": "Al Fiorini Home Office",
+        "productTypes": [
+            "appliance"
+        ],
+        "timeZone": "America/Los_Angeles",
+        "tags": [],
+        "enrollmentString": null,
+        "url": "https://n718.meraki.com/Al-Fiorini-Home-/n/dHGe7dTb/manage/usage/list",
+        "notes": null,
+        "isBoundToConfigTemplate": false
+    }
+]

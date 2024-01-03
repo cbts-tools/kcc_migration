@@ -1,0 +1,103 @@
+[
+    {
+        "id": 99,
+        "networkId": "L_639511147086624244",
+        "name": "Data",
+        "applianceIp": "10.10.99.1",
+        "subnet": "10.10.99.0/24",
+        "fixedIpAssignments": {},
+        "reservedIpRanges": [
+            {
+                "start": "10.10.99.1",
+                "end": "10.10.99.9",
+                "comment": "RESERVED"
+            },
+            {
+                "start": "10.10.99.240",
+                "end": "10.10.99.254",
+                "comment": "RESERVED"
+            }
+        ],
+        "dnsNameservers": "8.8.8.8\n8.8.4.4",
+        "dhcpHandling": "Run a DHCP server",
+        "dhcpLeaseTime": "1 day",
+        "dhcpBootOptionsEnabled": false,
+        "dhcpOptions": [],
+        "interfaceId": "639511147086818551",
+        "ipv6": {
+            "enabled": false
+        },
+        "mandatoryDhcp": {
+            "enabled": false
+        }
+    },
+    {
+        "id": 100,
+        "networkId": "L_639511147086624244",
+        "name": "Voice",
+        "applianceIp": "10.10.100.1",
+        "subnet": "10.10.100.0/24",
+        "fixedIpAssignments": {},
+        "reservedIpRanges": [
+            {
+                "start": "10.10.100.250",
+                "end": "10.10.100.254",
+                "comment": "RESERVED"
+            }
+        ],
+        "dnsNameservers": "google_dns",
+        "dhcpHandling": "Run a DHCP server",
+        "dhcpLeaseTime": "1 day",
+        "dhcpBootOptionsEnabled": false,
+        "dhcpOptions": [],
+        "interfaceId": "639511147086818552",
+        "ipv6": {
+            "enabled": false
+        },
+        "mandatoryDhcp": {
+            "enabled": false
+        }
+    },
+    {
+        "id": 128,
+        "networkId": "L_639511147086624244",
+        "name": "Meraki Management",
+        "applianceIp": "192.168.128.1",
+        "subnet": "192.168.128.0/24",
+        "fixedIpAssignments": {},
+        "reservedIpRanges": [],
+        "dnsNameservers": "google_dns",
+        "dhcpHandling": "Run a DHCP server",
+        "dhcpLeaseTime": "1 day",
+        "dhcpBootOptionsEnabled": false,
+        "dhcpOptions": [],
+        "interfaceId": "639511147086818550",
+        "ipv6": {
+            "enabled": false
+        },
+        "mandatoryDhcp": {
+            "enabled": false
+        }
+    },
+    {
+        "id": 1000,
+        "networkId": "L_639511147086624244",
+        "name": "Guest",
+        "applianceIp": "192.168.0.1",
+        "subnet": "192.168.0.0/23",
+        "fixedIpAssignments": {},
+        "reservedIpRanges": [],
+        "dnsNameservers": "google_dns",
+        "dhcpHandling": "Run a DHCP server",
+        "dhcpLeaseTime": "12 hours",
+        "dhcpBootOptionsEnabled": false,
+        "dhcpOptions": [],
+        "interfaceId": "639511147086818553",
+        "ipv6": {
+            "enabled": false
+        },
+        "mandatoryDhcp": {
+            "enabled": false
+        }
+    }
+]

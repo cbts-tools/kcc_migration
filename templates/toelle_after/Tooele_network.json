@@ -1,0 +1,15 @@
+{
+    "id": "L_624311498344249390",
+    "organizationId": "624311498344235186",
+    "name": "Tooele",
+    "productTypes": [
+        "switch",
+        "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n718.meraki.com/Tooele-wireless/n/ZA5vHaTb/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+}

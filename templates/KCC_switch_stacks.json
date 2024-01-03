@@ -1,0 +1,64 @@
+[
+    {
+        "network": {
+            "id": "L_624311498344236379",
+            "organizationId": "624311498344235186",
+            "name": "Grassland",
+            "productTypes": [
+                "switch",
+                "wireless"
+            ],
+            "timeZone": "America/Kentucky/Louisville",
+            "tags": [
+                "Firewall"
+            ],
+            "enrollmentString": null,
+            "url": "https://n718.meraki.com/Grassland-wirele/n/G_ZVHcF/manage/usage/list",
+            "notes": "",
+            "isBoundToConfigTemplate": false
+        },
+        "switch_stack": [
+            {
+                "id": "624311498344235973",
+                "name": "GRASSLAND-SVR-CORE-Stack1",
+                "serials": [
+                    "Q2GW-3N4E-FV5T",
+                    "Q2KW-TYVJ-M3QE",
+                    "Q2KW-GNQA-WPT7",
+                    "Q2KW-KD56-WWD4",
+                    "Q2KW-PAML-P2JR",
+                    "Q2GW-AUXB-DQ4Q"
+                ]
+            }
+        ]
+    },
+    {
+        "network": {
+            "id": "L_624311498344236380",
+            "organizationId": "624311498344235186",
+            "name": "Electron",
+            "productTypes": [
+                "appliance",
+                "switch",
+                "wireless"
+            ],
+            "timeZone": "America/Los_Angeles",
+            "tags": [],
+            "enrollmentString": null,
+            "url": "https://n718.meraki.com/Electron-switch/n/19z7maTb/manage/usage/list",
+            "notes": "",
+            "isBoundToConfigTemplate": false
+        },
+        "switch_stack": [
+            {
+                "id": "624311498344235978",
+                "name": "Electron-Core-Stack1",
+                "serials": [
+                    "Q2HW-77TM-5M4E",
+                    "Q2GW-A3FC-RT5V",
+                    "Q2GW-6A88-NPDG"
+                ]
+            }
+        ]
+    }
+]

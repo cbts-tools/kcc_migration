@@ -1,0 +1,49 @@
+[
+    {
+        "network": {
+            "id": "L_624311498344236379",
+            "organizationId": "624311498344235186",
+            "name": "Grassland",
+            "productTypes": [
+                "switch",
+                "wireless"
+            ],
+            "timeZone": "America/Kentucky/Louisville",
+            "tags": [
+                "Firewall"
+            ],
+            "enrollmentString": null,
+            "url": "https://n718.meraki.com/Grassland-wirele/n/G_ZVHcF/manage/usage/list",
+            "notes": "",
+            "isBoundToConfigTemplate": false
+        },
+        "aggregations": [
+            {
+                "id": "c3RhY2tfYWdncl82MjQzMTE0OTgzNDQyMzU5NzNfMA==",
+                "switchPorts": [
+                    {
+                        "serial": "Q2KW-TYVJ-M3QE",
+                        "portId": "8"
+                    },
+                    {
+                        "serial": "Q2KW-GNQA-WPT7",
+                        "portId": "8"
+                    }
+                ]
+            },
+            {
+                "id": "c3RhY2tfYWdncl82MjQzMTE0OTgzNDQyMzU5NzNfMQ==",
+                "switchPorts": [
+                    {
+                        "serial": "Q2KW-TYVJ-M3QE",
+                        "portId": "9"
+                    },
+                    {
+                        "serial": "Q2KW-GNQA-WPT7",
+                        "portId": "9"
+                    }
+                ]
+            }
+        ]
+    }
+]
